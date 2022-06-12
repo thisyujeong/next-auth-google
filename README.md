@@ -1,6 +1,6 @@
 # Next-auth for Google Template
 
-Google login & logout tempalte with Next-auth of Next.js
+Google login & logout template with Next-auth of Next.js
 
 - Framework: [Next.js](https://nextjs.org/), [Next-auth](https://next-auth.js.org/)
 - Styling: [tailwindcss](https://tailwindcss.com/)
@@ -16,6 +16,10 @@ SECRET=
 GOOGLE_ID=
 GOOGLE_SECRET=
 ```
+
+`NEXTAUTH_URL`  
+: 기본 host 설정. 개발/운영 배포시 각 환경에 맞는 BASE_URL 값으로 조정  
+: Default host setting. During development/production deployment, adjust to the BASE_URL value for each environment.
 
 `GOOGLE_ID`, `GOOGLE_SECRET`  
 : 구글 클라우드 플랫폼에서 발급한 ID 및 비밀 코드 할당.  
